@@ -97,7 +97,7 @@
 }
 
 
-@media  screen and (max-width:770px){
+@media  screen and (max-width:688px){
     .nav-bar ul{
         flex-direction: column;
     }
@@ -118,6 +118,8 @@
         margin-top: 20vh;
     }
 }
+
+
 
 .title{
     padding:70px 0;
@@ -165,6 +167,10 @@
         margin-bottom: 30px;
     }
 }
+.star{
+    color: teal;
+}
+
 
 .feature-box{
     width:80%;
