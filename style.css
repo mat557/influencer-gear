@@ -1,0 +1,286 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.landing-page{
+    height: 100vh;
+    width:100%;
+    background: linear-gradient(transparent,rgb(1, 77, 78,0.5));
+    
+}
+
+.img{
+    transition: 1.5s ease-out;
+}
+
+
+.landing-page:hover .img{
+    transform: translateY(40px);
+}
+
+
+.navigation{
+    height:10vh;
+    width:90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation h3{
+    padding-top: 15px;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.nav-bar{
+    width: 50%;
+}
+
+.nav-bar ul{
+    display:flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    list-style: none;
+}
+
+.nav-bar ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color:black;
+    font-size: 20px;
+}
+
+.landing-ele{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 120px;
+}
+
+.landing-des{
+    width:60%;
+    padding-left: 80px;
+}
+
+
+
+.landing-ele h1{
+    font-size: 45px;
+    font-weight:900;
+}
+
+.landing-ele p{
+    font-size: 20px;
+}
+.menu-btn{
+    padding-top: 25px;
+}
+.landing-ele a{
+    text-decoration: none;
+    background-color: teal;
+    border: .5px solid #fff;
+    padding:6px 9px;
+    color: #fff;
+    border-radius: 7px;
+}
+
+.landing-ele .far{
+    padding-left: 5px;
+}
+
+.product-list{
+    width:100%;
+}
+
+
+@media  screen and (max-width:770px){
+    .nav-bar ul{
+        flex-direction: column;
+    }
+    .landing-page{
+        height: 180vh;
+    }
+    .landing-ele{
+        flex-direction: column;
+    }
+    .landing-des{
+        text-align: center;
+        margin-bottom: 5vh;
+    }
+    .landing-des h1{
+        font-size: 20px;
+    }
+    .product-list{
+        margin-top: 20vh;
+    }
+}
+
+.title{
+    padding:70px 0;
+    text-align: center;
+}
+
+.title h4{
+    font-size: 25px;
+}
+
+.title h1{
+    font-weight: bold;
+    font-size: 35px;
+    color: teal;
+}
+
+.service-box{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.single-service{
+    flex-basis: 30%;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 15px;
+    color:#fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.836);
+}
+
+.prod-des{
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:black;
+}
+
+@media  screen and (max-width:770px){
+    .single-service{
+        flex-basis:100%;
+        margin-bottom: 30px;
+    }
+}
+
+.feature-box{
+    width:80%;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+.features{
+    flex-basis: 50%;
+}
+
+
+.features-img{
+    flex-basis: 50%;
+    margin:auto;
+}
+
+.features-img img{
+    padding-top: 5px;
+    width:70%;
+    padding-left: 50px;
+}
+
+.btn{
+    width:80%;
+    margin: auto;
+    margin-top: 10px;
+    text-align: right;
+}
+
+.btn a{
+    color: darkcyan;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.btn a i{
+    padding-left: 5px;
+}
+
+
+.features h1{
+    text-align:left;
+    font-weight:500;
+    color:teal;
+}
+
+.features-desc{
+    display:flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.feature-icon .fas{
+    width:50px;
+    height: 50px;
+    font-size: 30px;
+    line-height: 50px;
+    border-radius: 8px;
+    color:teal;
+    border:1px solid teal;
+}
+
+.feature-text p{
+    padding: 0 20px;
+    text-align: initial;
+}
+
+@media screen and (max-width:770px){
+    .title h1{
+        font-size: 30px;
+    }
+    .features{
+        flex-basis: 100%;
+    }
+    .features-img{
+        flex-basis: 100%;
+    }
+    .features-img img{
+        
+        width:100%;
+    }
+}
+
+.last-section{
+    margin-top: 80px;
+    height:30vh;
+    width:100%;
+    background: teal;
+}
+
+
+.last-talking{
+    text-align: center;
+    padding-top: 30px;
+    color:white;
+}
+
+
+
+.last-icon ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.last-icon ul li{
+    padding-top: 10px;
+    padding-inline: 12px;
+}
+
+.last-icon ul li a{
+    color:white;
+}
